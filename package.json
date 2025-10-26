@@ -1,0 +1,29 @@
+{
+	"name": "parcelsecond",
+	"version": "1.0.0",
+	"description": "cool project",
+	"browserslist": "> 0.5%, last 2 versions, not dead",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 3",
+		"dev": "npx parcel src/index.html",
+		"build": "parcel build src/index.html",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d dist"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/WindyBindy/parcelsecond.git"
+	},
+	"keywords": [],
+	"author": "Nikitos",
+	"license": "ISC",
+	"type": "commonjs",
+	"bugs": {
+		"url": "https://github.com/WindyBindy/parcelsecond/issues"
+	},
+	"homepage": "https://github.com/WindyBindy/parcelsecond#readme",
+	"devDependencies": {
+		"gh-pages": "^6.3.0",
+		"parcel": "^2.16.0"
+	}
+}
