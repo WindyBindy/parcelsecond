@@ -714,7 +714,10 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"2R06K":[function(require,module,exports,__globalThis) {
-console.log('hello');
+// import { add } from './js/calculator'
+// import { minus } from './js/calculator'
+// console.log(add(23, 555))
+// console.log(minus(34, 5))
 
 },{}]},["7wZbQ","2R06K"], "2R06K", "parcelRequire699d", {})
 
